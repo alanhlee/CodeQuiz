@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+    integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+  <link rel='stylesheet' href='style.css'>
+
+  <title>Alan's Code Quiz</title>
+</head>
+
+<body>
+  Hi! Welcome to Alan's timed quiz when you hit the start button your timer will start
+  <div>
+    Rules/Instructions: -5 off timer for wrong answers FINAL SCORE 1 (right answer) + time left. Type in your initials and ENTER at end
+  </div>
+  <div>
+    Time Left:
+    <span id="timer"></span>
+  </div>
+  <div id="questionBox"></div>
+  <div id="score"></div>
+  <div id='answerBox'>
+  </div>
+  <div class="startBox">
+    <button class='btn btn-info startBtn' id='startBtn'>
+      Start
+    </button>
+  </div>
+  <div>
+
+    <label>Initials</label>
+    <form id='form'><input id='initials' style='display: none'></form>
+    <div>Highscores</div>
+    <div id="highScores"></div>
+  </div>
+
+  <script src="./javascript.js">
+
+  </script>
+
+</body>
+
+</html>

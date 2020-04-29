@@ -1,0 +1,16 @@
+/* give start button padding */
+
+.answerBox {
+  padding: 2px;
+  margin: 50px;
+}
+
+.startBtn {
+  padding: 10px;
+  margin: 100px;
+}
+
+.startBox {
+  display: flex;
+  justify-content: flex-end;
+}
